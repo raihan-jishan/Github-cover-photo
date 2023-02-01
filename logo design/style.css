@@ -1,0 +1,60 @@
+ /*  FONT FAMILY */
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+ *
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+ } 
+ body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background: rgb(22 22 22 / 95%);;
+
+ }
+ :root {
+   --activeGreen: #2dbf64;
+   --fontPrimary: #002333;
+   --questionBG: #e4e8ee;
+   --successGreen: #00ff84; 
+   --newGreen    : #1dd881;
+   --bodyBackground: #f2f4f8; 
+   --smartYellow: #FFC916;
+   --smartBlue: #0070f3;
+   --purpule: #728FCE;
+ }
+/* container */
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 170px;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+/*  fName */
+.fName{
+    background: var(--activeGreen);
+    padding: 14px 50px;
+    border-radius:1rem;
+
+}
+ /* lastName */
+ .lastName{
+    padding: 12px 50px;
+    border-radius: 0.5rem;
+    background: rgba(102, 102, 102, 0.541);
+   
+
+     
+ }
+ /* js */
+ .js img{
+    width: 60px;
+    border-radius: 0.6rem;
+    margin-left: -20px;
+    transform: rotate(16deg);
+ }
